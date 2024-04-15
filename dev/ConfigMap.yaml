@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: myapp-configmap
 data:
-  ENV_VAR_1: value1
+  ENV_VAR_1: value3
   ENV_VAR_2: value2
