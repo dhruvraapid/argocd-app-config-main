@@ -1,2 +1,7 @@
-  ENV_VAR_1: "secret1"
-  ENV_VAR_2: "secret2"
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-configmap
+data:
+  ENV_VAR_1: "vaule2"
+  ENV_VAR_2: "vaule1"
