@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - ConfigMap.yaml
+- folder1/newconfigmap.yaml
